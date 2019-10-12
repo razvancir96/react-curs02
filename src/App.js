@@ -21,7 +21,10 @@ class App extends React.Component {
         <h1>HELLO WORLD!</h1>
         {/* Componenta UserItem este "instantiata"(creata).
         In fisierul UserItem.jsx ea este doar declarata!! */}
-        <UserItem />
+        {/* Atributele name si email sunt puse intr-un obiect (DE CATRE REACT!!)
+        si trimise catre componenta UserItem.jsx */}
+        <UserItem name="Arsene Florin" email="arsene.florin@gmail.com"/>
+        <UserItem name="Criste Mihai" email="criste.mihai@gmail.com"/>
       </div>
     );
   }
