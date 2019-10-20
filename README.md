@@ -6,7 +6,7 @@ Pentru a rula aceasta etapa (in linie de comanda):
 
 #### 2. `cd react-curs02`
 
-#### 3. `npm install`
+#### 3. `npm install` (posibil sa dureze)
 
 #### 4. `npm start`
 
