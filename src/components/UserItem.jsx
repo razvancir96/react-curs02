@@ -3,7 +3,7 @@ import React from 'react';
 
 // Pentru o componenta care nu se schimba din momentul afisarii
 // este de ajuns sa facem o functie care returneaza un div.
-const UserItem = function(props) {
+function UserItem(props) {
     // ATENTIE! props este un obiect creat de REACT care are chei 'atributele' de HTML
     // folosite la crearea componentei UserItem (vezi in App.js)
     // pentru a extrage atributele obiectului props, folosim object destructuring (vezi Recapitulare)
